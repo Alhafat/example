@@ -10,19 +10,21 @@
 }
 
 //  метод 2
-// void PrintArray(int[] col);
-// {
-//     int count=col.Length;
-//     int position=0;
-//     while (position<count)
-//     {
-//         Console.WriteLine(col[position]);
-//         position++;
-//     }
-// }
+void PrintArray(int[] col)
+{
+    int count=col.Length;
+    int position=0;
+    while (position<count)
+    {
+        Console.WriteLine(col[position]);
+        position++;
+    }
+}
 
 
 int[] numbers=new int[10]; //определяет массив из 10 элементов
 
 FillArray(numbers); //заполняет массив
 PrintArray(numbers); //выводит(печатает массив)
+
+// numbers[4]=4 //принудительно запи сывает в индекс массива число
